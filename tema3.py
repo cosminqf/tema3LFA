@@ -80,7 +80,7 @@ if __name__ == "__main__":
         #Task 1. Define a CFG
         print("Test functia CFG:")
         V, Sigma, R, S = CFG()
-        #print(CFG())
+        print(CFG())
 
         #Task 2. String Generator
         print("Test functia StringGen:")
@@ -104,9 +104,9 @@ if __name__ == "__main__":
         print("Test functia Membership:")
         target = random.choice(strings)
         if Membership(S, target, V, R):
-            print("Merge")
+            print("Apartine CFG")
         else:
-            print("Nu merge")
+            print("Nu apartine CFG")
 
     else:
         print("Prea multe fisiere")
