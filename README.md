@@ -64,13 +64,13 @@ unde `nume_program.py` este numele fișierului Python care conține codul tău.
 
    Exemplu:
    ```
-   Merge
+   Apartine CFG
    ```
 
 sau
 
    ```
-   Nu merge
+   Nu apartine CFG
    ```
 
 ---
